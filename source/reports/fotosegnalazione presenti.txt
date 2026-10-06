@@ -1,0 +1,97 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1351547465
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =3459
+    DatasheetFontHeight =10
+    ItemSuffix =5
+    Left =270
+    Right =7740
+    Bottom =5970
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x8320a3bdadfee140
+    End
+    RecordSource ="PRESENTI COMPLETO"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xb00100006e040000b00100006e04000000000000830d00002f0a000001000000 ,
+        0x030000000000000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =2
+            FontName ="Arial"
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            AutoLabel = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =280
+            LabelX =-1701
+            FontWeight =300
+            FontName ="Arial"
+        End
+        Begin BreakLevel
+            ControlSource ="cognome"
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =2607
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextAlign =1
+                    Width =3459
+                    Name ="Testo2"
+                    ControlSource ="= Trim( [cognome])"
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextAlign =1
+                    Top =280
+                    Width =3459
+                    TabIndex =1
+                    Name ="Testo3"
+                    ControlSource ="= Trim( [nome])"
+
+                End
+                Begin BoundObjectFrame
+                    SizeMode =1
+                    Left =737
+                    Top =623
+                    Width =1536
+                    Height =1980
+                    TabIndex =2
+                    Name ="foto"
+                    ControlSource ="foto"
+
+                End
+            End
+        End
+    End
+End

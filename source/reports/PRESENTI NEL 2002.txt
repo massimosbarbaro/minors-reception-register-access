@@ -1,0 +1,449 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1978733815
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =14348
+    DatasheetFontHeight =10
+    ItemSuffix =29
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x44ad1b828f62e240
+    End
+    RecordSource ="Schedario1 Query COMPLESSIVO"
+    Caption ="PRESENTI NEL 2002"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x53030000530300005303000053030000000000000c3800008001000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="ID"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =680
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =5160
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta24"
+                    Caption ="PRESENTI NEL 2002"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =414
+            Name ="IntestazionePagina"
+            Begin
+                Begin Label
+                    TextAlign =3
+                    Left =57
+                    Top =57
+                    Width =327
+                    Height =300
+                    Name ="ID Etichetta"
+                    Caption ="ID"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="ID_Etichetta"
+                End
+                Begin Label
+                    Left =510
+                    Top =57
+                    Width =399
+                    Height =300
+                    Name ="presente Etichetta"
+                    Caption ="Presente S/N"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="presente_Etichetta"
+                End
+                Begin Label
+                    Left =963
+                    Top =57
+                    Width =894
+                    Height =300
+                    Name ="annocomp Etichetta"
+                    Caption ="annocomp"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="annocomp_Etichetta"
+                End
+                Begin Label
+                    Left =1927
+                    Top =57
+                    Width =189
+                    Height =300
+                    Name ="SESSO Etichetta"
+                    Caption ="SESSO"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="SESSO_Etichetta"
+                End
+                Begin Label
+                    Left =2371
+                    Top =57
+                    Width =1434
+                    Height =315
+                    Name ="cognome Etichetta"
+                    Caption ="Cognome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="cognome_Etichetta"
+                End
+                Begin Label
+                    Left =3862
+                    Top =57
+                    Width =1254
+                    Height =315
+                    Name ="nome Etichetta"
+                    Caption ="Nome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="nome_Etichetta"
+                End
+                Begin Label
+                    Left =5173
+                    Top =57
+                    Width =1254
+                    Height =315
+                    Name ="cittadinanza Etichetta"
+                    Caption ="Cittadinanza"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="cittadinanza_Etichetta"
+                End
+                Begin Label
+                    Left =6519
+                    Top =57
+                    Width =1254
+                    Height =300
+                    Name ="stato di nascita Etichetta"
+                    Caption ="Stato di nascita"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="stato_di_nascita_Etichetta"
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =7830
+                    Top =57
+                    Width =798
+                    Height =300
+                    Name ="data di nascita Etichetta"
+                    Caption ="Data di nascita"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="data_di_nascita_Etichetta"
+                End
+                Begin Label
+                    Left =8685
+                    Top =57
+                    Width =1254
+                    Height =300
+                    Name ="consegna Etichetta"
+                    Caption ="consegna"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="consegna_Etichetta"
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =10366
+                    Top =57
+                    Width =1032
+                    Height =300
+                    Name ="entrataacc Etichetta"
+                    Caption ="entrataacc"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="entrataacc_Etichetta"
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =11575
+                    Top =57
+                    Width =1175
+                    Height =300
+                    Name ="uscita definitiva Etichetta"
+                    Caption ="uscita definitiva"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="uscita_definitiva_Etichetta"
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =177
+                    Top =357
+                    Width =14171
+                    Name ="Linea27"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =384
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    Left =57
+                    Top =57
+                    Width =327
+                    Height =225
+                    Name ="ID"
+                    ControlSource ="ID"
+
+                End
+                Begin TextBox
+                    Left =510
+                    Top =57
+                    Width =399
+                    Height =270
+                    TabIndex =1
+                    Name ="presente"
+                    ControlSource ="presente"
+
+                End
+                Begin TextBox
+                    Left =963
+                    Top =57
+                    Width =894
+                    Height =270
+                    TabIndex =2
+                    Name ="annocomp"
+                    ControlSource ="annocomp"
+
+                End
+                Begin TextBox
+                    Left =1927
+                    Top =57
+                    Width =189
+                    Height =270
+                    TabIndex =3
+                    Name ="SESSO"
+                    ControlSource ="SESSO"
+
+                End
+                Begin TextBox
+                    Left =2386
+                    Top =57
+                    Width =1419
+                    Height =285
+                    TabIndex =4
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                End
+                Begin TextBox
+                    Left =3862
+                    Top =57
+                    Width =1254
+                    Height =285
+                    TabIndex =5
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                End
+                Begin TextBox
+                    Left =5173
+                    Top =57
+                    Width =1254
+                    Height =285
+                    TabIndex =6
+                    Name ="cittadinanza"
+                    ControlSource ="cittadinanza"
+
+                End
+                Begin TextBox
+                    Left =6519
+                    Top =57
+                    Width =1254
+                    Height =270
+                    TabIndex =7
+                    Name ="stato di nascita"
+                    ControlSource ="stato di nascita"
+                    EventProcPrefix ="stato_di_nascita"
+
+                End
+                Begin TextBox
+                    Left =7830
+                    Top =57
+                    Width =798
+                    Height =270
+                    TabIndex =8
+                    Name ="data di nascita"
+                    ControlSource ="data di nascita"
+                    Format ="Short Date"
+                    InputMask ="99\\/99\\/00;0;#"
+                    EventProcPrefix ="data_di_nascita"
+
+                End
+                Begin TextBox
+                    Left =8677
+                    Top =57
+                    Width =1254
+                    Height =270
+                    TabIndex =9
+                    Name ="consegna"
+                    ControlSource ="consegna"
+
+                End
+                Begin TextBox
+                    Left =10366
+                    Top =57
+                    Width =1032
+                    Height =270
+                    TabIndex =10
+                    Name ="entrataacc"
+                    ControlSource ="entrataacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                End
+                Begin TextBox
+                    Left =11575
+                    Top =57
+                    Width =1175
+                    Height =270
+                    TabIndex =11
+                    Name ="uscita definitiva"
+                    ControlSource ="uscita definitiva"
+                    Format ="Short Date"
+                    EventProcPrefix ="uscita_definitiva"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =302
+            Name ="PièDiPaginaPagina"
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =56
+                    Width =5040
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo25"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =8846
+                    Top =2
+                    Width =5040
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo26"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+
+                End
+                Begin Line
+                    BorderWidth =3
+                    Top =2
+                    Width =13886
+                    BorderColor =12632256
+                    Name ="Linea28"
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End

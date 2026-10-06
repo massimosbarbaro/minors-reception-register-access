@@ -1,0 +1,1073 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1367466143
+Begin Form
+    OrderByOn = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11509
+    DatasheetFontHeight =10
+    Left =600
+    Top =330
+    Right =12390
+    Bottom =8010
+    DatasheetGridlinesColor =12632256
+    OrderBy ="[ACCOGLIENZA 2005].IDaccnum"
+    RecSrcDt = Begin
+        0xad3ad3b38dbbe240
+    End
+    RecordSource ="ACCOGLIENZA 2005"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+        End
+        Begin Section
+            Height =7694
+            BackColor =-2147483633
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =566
+                    Top =53
+                    Width =576
+                    Height =255
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="ID"
+                    ControlSource ="ID"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =53
+                            Width =513
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="ID Etichetta"
+                            Caption ="ID"
+                            EventProcPrefix ="ID_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =215
+                    Left =1700
+                    Top =53
+                    Width =681
+                    Height =255
+                    TabIndex =1
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="annocomp"
+                    ControlSource ="annocomp"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1190
+                            Top =53
+                            Width =513
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="annocomp Etichetta"
+                            Caption ="Comp."
+                            EventProcPrefix ="annocomp_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1190
+                    Top =393
+                    Width =336
+                    Height =255
+                    TabIndex =2
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="presente"
+                    ControlSource ="presente"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =393
+                            Width =1083
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="presente Etichetta"
+                            Caption ="Presente S/N"
+                            EventProcPrefix ="presente_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =95
+                    Left =2267
+                    Top =393
+                    Width =336
+                    Height =255
+                    TabIndex =3
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="categoria1"
+                    ControlSource ="categoria1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1587
+                            Top =393
+                            Width =678
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="categoria1 Etichetta"
+                            Caption ="Acc. (X)"
+                            EventProcPrefix ="categoria1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =3288
+                    Top =393
+                    Width =456
+                    Height =255
+                    TabIndex =4
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="categoria2"
+                    ControlSource ="categoria2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =95
+                            Left =2607
+                            Top =393
+                            Width =678
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="categoria2 Etichetta"
+                            Caption ="Conv.(X)"
+                            EventProcPrefix ="categoria2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =4195
+                    Top =393
+                    Width =336
+                    Height =255
+                    TabIndex =5
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="SESSO"
+                    ControlSource ="SESSO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =3798
+                            Top =393
+                            Width =408
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="SESSO Etichetta"
+                            Caption ="M/F"
+                            EventProcPrefix ="SESSO_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =733
+                    Width =2676
+                    Height =255
+                    TabIndex =6
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =733
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="cognome Etichetta"
+                            Caption ="Cognome"
+                            EventProcPrefix ="cognome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =1073
+                    Width =2271
+                    Height =255
+                    TabIndex =7
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1073
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="nome Etichetta"
+                            Caption ="Nome"
+                            EventProcPrefix ="nome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =215
+                    Left =1303
+                    Top =1414
+                    Width =2271
+                    Height =255
+                    TabIndex =8
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="alias"
+                    ControlSource ="alias"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1414
+                            Width =1263
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="alias Etichetta"
+                            Caption ="alias"
+                            EventProcPrefix ="alias_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =1754
+                    Width =2286
+                    Height =255
+                    TabIndex =9
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="cittadinanza"
+                    ControlSource ="cittadinanza"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1754
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="cittadinanza Etichetta"
+                            Caption ="Cittadinanza"
+                            EventProcPrefix ="cittadinanza_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2094
+                    Width =2271
+                    Height =255
+                    TabIndex =10
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="stato di nascita"
+                    ControlSource ="stato di nascita"
+                    EventProcPrefix ="stato_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2094
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="stato di nascita Etichetta"
+                            Caption ="Stato di nascita"
+                            EventProcPrefix ="stato_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2434
+                    Width =2271
+                    Height =255
+                    TabIndex =11
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="luogo di nascita"
+                    ControlSource ="luogo di nascita"
+                    EventProcPrefix ="luogo_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2434
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="luogo di nascita Etichetta"
+                            Caption ="Luogo di nascita"
+                            EventProcPrefix ="luogo_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2774
+                    Width =966
+                    Height =255
+                    TabIndex =12
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="data di nascita"
+                    ControlSource ="data di nascita"
+                    Format ="Short Date"
+                    InputMask ="99\\/99\\/00;0;#"
+                    EventProcPrefix ="data_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2774
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="data di nascita Etichetta"
+                            Caption ="Data di nascita"
+                            EventProcPrefix ="data_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3114
+                    Width =2886
+                    Height =255
+                    TabIndex =13
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="provenienza"
+                    ControlSource ="provenienza"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3114
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="provenienza Etichetta"
+                            Caption ="Provenienza"
+                            EventProcPrefix ="provenienza_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3454
+                    Width =2886
+                    Height =255
+                    TabIndex =14
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="consegna"
+                    ControlSource ="consegna"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3454
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="consegna Etichetta"
+                            Caption ="consegna"
+                            EventProcPrefix ="consegna_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3794
+                    Width =966
+                    Height =255
+                    TabIndex =15
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="entrataacc"
+                    ControlSource ="entrataacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3794
+                            Width =1248
+                            Height =255
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="entrataacc Etichetta"
+                            Caption ="entrata acc."
+                            EventProcPrefix ="entrataacc_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3401
+                    Top =3795
+                    Height =285
+                    TabIndex =16
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="collocamento 1"
+                    ControlSource ="collocamento 1"
+                    EventProcPrefix ="collocamento_1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =3795
+                            Width =1020
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta75"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1303
+                    Top =4135
+                    Width =966
+                    Height =285
+                    TabIndex =17
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="uscitaacc"
+                    ControlSource ="uscitaacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =4135
+                            Width =1200
+                            Height =240
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta76"
+                            Caption ="uscita acc:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3401
+                    Top =4191
+                    Height =285
+                    TabIndex =18
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="collocamento 2"
+                    ControlSource ="collocamento 2"
+                    EventProcPrefix ="collocamento_2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =4191
+                            Width =1020
+                            Height =240
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta77"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =5668
+                    Top =4191
+                    Width =396
+                    Height =285
+                    TabIndex =19
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="giorniacc"
+                    ControlSource ="giorniacc"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5215
+                            Top =4191
+                            Width =345
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta78"
+                            Caption ="gg:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1303
+                    Top =4588
+                    Width =966
+                    Height =285
+                    TabIndex =20
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="entrataconv"
+                    ControlSource ="entrataconv"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =4588
+                            Width =1215
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta79"
+                            Caption ="entrataconv:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3401
+                    Top =4588
+                    Height =285
+                    TabIndex =21
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="collocamento 3"
+                    ControlSource ="collocamento 3"
+                    EventProcPrefix ="collocamento_3"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =4588
+                            Width =1020
+                            Height =270
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta80"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1298
+                    Top =4985
+                    Width =966
+                    Height =285
+                    TabIndex =22
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="uscitaconv"
+                    ControlSource ="uscitaconv"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =65
+                            Top =4985
+                            Width =1080
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta81"
+                            Caption ="uscitaconv:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3401
+                    Top =4985
+                    Height =285
+                    TabIndex =23
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="collocamento 4"
+                    ControlSource ="collocamento 4"
+                    EventProcPrefix ="collocamento_4"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =4985
+                            Width =960
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta82"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1303
+                    Top =5382
+                    Width =966
+                    Height =285
+                    TabIndex =24
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="entrata altro"
+                    ControlSource ="entrata altro"
+                    Format ="Short Date"
+                    EventProcPrefix ="entrata_altro"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =5382
+                            Width =1020
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta83"
+                            Caption ="entrata altro:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3458
+                    Top =5382
+                    Width =966
+                    Height =285
+                    TabIndex =25
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="uscita atro"
+                    ControlSource ="uscita atro"
+                    Format ="Short Date"
+                    EventProcPrefix ="uscita_atro"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =5382
+                            Width =1020
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta84"
+                            Caption ="uscita atro:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1303
+                    Top =5779
+                    Width =1011
+                    Height =285
+                    TabIndex =26
+                    BackColor =-2147483643
+                    ForeColor =255
+                    Name ="uscita definitiva"
+                    ControlSource ="uscita definitiva"
+                    Format ="Short Date"
+                    EventProcPrefix ="uscita_definitiva"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =5779
+                            Width =1215
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =255
+                            Name ="Etichetta85"
+                            Caption ="uscita definitiva:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =3458
+                    Top =5779
+                    Width =2376
+                    Height =285
+                    TabIndex =27
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="motivuscita"
+                    ControlSource ="motivuscita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2381
+                            Top =5779
+                            Width =915
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta87"
+                            Caption ="motivuscita:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =6973
+                    Top =5779
+                    Width =2496
+                    Height =285
+                    TabIndex =28
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="destinazione1"
+                    ControlSource ="destinazione1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5896
+                            Top =5779
+                            Width =1035
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta88"
+                            Caption ="Destinazione:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1303
+                    Top =6176
+                    Height =285
+                    TabIndex =29
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="estremi decreto"
+                    ControlSource ="estremi decreto"
+                    EventProcPrefix ="estremi_decreto"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =6176
+                            Width =1140
+                            Height =285
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta89"
+                            Caption ="estremi decreto:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =4195
+                    Top =6176
+                    Width =396
+                    Height =285
+                    TabIndex =30
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="fasciaeta"
+                    ControlSource ="fasciaeta"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3288
+                            Top =6111
+                            Width =870
+                            Height =1035
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta90"
+                            Caption ="fascia eta A   6 - 12   B 12 - 14 C 15 - 18 D 19 - 25"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =5839
+                    Top =6176
+                    Width =456
+                    Height =345
+                    TabIndex =31
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="motentr"
+                    ControlSource ="motentr"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4762
+                            Top =6123
+                            Width =975
+                            Height =1185
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta91"
+                            Caption ="Motivazione:A povertà   B racket     C vagab.   D asilo pol.  E altro"
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OldBorderStyle =1
+                    OverlapFlags =215
+                    Left =7426
+                    Top =6176
+                    Width =396
+                    Height =333
+                    TabIndex =32
+                    BackColor =-2147483643
+                    ForeColor =-2147483640
+                    Name ="esito"
+                    ControlSource ="esito"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =6406
+                            Top =6119
+                            Width =1125
+                            Height =1575
+                            BackColor =-2147483633
+                            ForeColor =-2147483630
+                            Name ="Etichetta92"
+                            Caption ="esito:             A fuga           B rimpatrio     C estulsione  D ricongiun.  "
+                                "E conv/com  F affido         G altro"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =8957
+                    Top =6573
+                    Width =1026
+                    Height =570
+                    FontSize =18
+                    TabIndex =33
+                    BackColor =-2147483643
+                    ForeColor =16737843
+                    Name ="IDaccanno"
+                    ControlSource ="IDaccanno"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =9300
+                            Top =6180
+                            Width =1020
+                            Height =240
+                            BackColor =-2147483633
+                            ForeColor =16737843
+                            Name ="Etichetta93"
+                            Caption ="Anno e num.:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =10039
+                    Top =6573
+                    Width =801
+                    Height =570
+                    FontSize =20
+                    TabIndex =34
+                    BackColor =-2147483643
+                    ForeColor =16737843
+                    Name ="IDaccnum"
+                    ControlSource ="IDaccnum"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =1360
+                    Top =6743
+                    Width =1806
+                    Height =345
+                    FontSize =10
+                    TabIndex =35
+                    BackColor =13434828
+                    ForeColor =16737843
+                    Name ="sistemazione"
+                    ControlSource ="sistemazione"
+
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =85
+                            Left =283
+                            Top =6743
+                            Width =1020
+                            Height =345
+                            BackColor =13434828
+                            ForeColor =16737843
+                            Name ="Etichetta95"
+                            Caption ="sistemazione:"
+                        End
+                    End
+                End
+                Begin BoundObjectFrame
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =4251
+                    Top =847
+                    Width =2121
+                    Height =2775
+                    TabIndex =36
+                    Name ="foto"
+                    ControlSource ="foto"
+
+                End
+                Begin BoundObjectFrame
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =6973
+                    Height =4410
+                    TabIndex =37
+                    Name ="note"
+                    ControlSource ="note"
+
+                End
+            End
+        End
+    End
+End

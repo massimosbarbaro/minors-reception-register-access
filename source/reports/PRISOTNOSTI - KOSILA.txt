@@ -1,0 +1,949 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1749503731
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =14173
+    DatasheetFontHeight =10
+    ItemSuffix =115
+    Left =252
+    Top =108
+    Right =11532
+    Bottom =8100
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x8456ebe56fc7e140
+    End
+    RecordSource ="PRESENTI COMPLETO"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x53030000520300005303000052030000000000005d3700005401000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            FontSize =12
+            FontName ="Haettenschweiler"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+            ShowDatePicker =0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="cognome"
+        End
+        Begin BreakLevel
+            ControlSource ="nome"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =623
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    Left =60
+                    Top =60
+                    Width =7230
+                    Height =360
+                    FontSize =14
+                    FontWeight =700
+                    Name ="Etichetta6"
+                    Caption ="PRISOTNOSTI  kosilo ____________________"
+                    FontName ="Arial CE"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =363
+            Name ="IntestazionePagina"
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    Left =3287
+                    Top =104
+                    Width =1920
+                    Height =240
+                    FontSize =8
+                    Name ="Ime Etichetta"
+                    Caption ="Ime"
+                    FontName ="Arial CE"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Ime_Etichetta"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =5328
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta78"
+                    Caption ="1"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =5612
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta79"
+                    Caption ="2"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =5895
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta80"
+                    Caption ="3"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =6179
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta81"
+                    Caption ="4"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =6462
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta82"
+                    Caption ="5"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =6746
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta83"
+                    Caption ="6"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =7029
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta84"
+                    Caption ="7"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =7313
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta85"
+                    Caption ="8"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =7596
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta86"
+                    Caption ="9"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =7880
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta87"
+                    Caption ="10"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =8163
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta88"
+                    Caption ="11"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =8447
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta89"
+                    Caption ="12"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =8730
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta90"
+                    Caption ="13"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =9018
+                    Top =63
+                    Width =240
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta91"
+                    Caption ="14"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =9297
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta92"
+                    Caption ="15"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =9581
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta93"
+                    Caption ="16"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =9864
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta94"
+                    Caption ="17"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =10148
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta95"
+                    Caption ="18"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =10431
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta96"
+                    Caption ="19"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =10713
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta97"
+                    Caption ="20"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =10998
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta98"
+                    Caption ="21"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =11283
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta99"
+                    Caption ="22"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =11568
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta100"
+                    Caption ="23"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =11853
+                    Top =63
+                    Width =270
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta101"
+                    Caption ="24"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =12138
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta102"
+                    Caption ="25"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =12423
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta103"
+                    Caption ="26"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =12693
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta104"
+                    Caption ="27"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =12978
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta105"
+                    Caption ="28"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =13263
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta106"
+                    Caption ="29"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =13548
+                    Top =63
+                    Width =255
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta107"
+                    Caption ="30"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =13833
+                    Top =56
+                    Width =225
+                    Height =300
+                    FontSize =8
+                    Name ="Etichetta108"
+                    Caption ="31"
+                    FontName ="Arial CE"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =793
+                    Top =112
+                    Width =1920
+                    Height =240
+                    FontSize =8
+                    Name ="Etichetta110"
+                    Caption ="Priimek"
+                    FontName ="Arial CE"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =340
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =9580
+                    Width =224
+                    Height =230
+                    Name ="Testo35"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =9297
+                    Width =224
+                    Height =230
+                    TabIndex =1
+                    Name ="Testo47"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =9013
+                    Width =224
+                    Height =230
+                    TabIndex =2
+                    Name ="Testo48"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =8730
+                    Width =224
+                    Height =230
+                    TabIndex =3
+                    Name ="Testo49"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =8446
+                    Width =224
+                    Height =230
+                    TabIndex =4
+                    Name ="Testo50"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =8163
+                    Width =224
+                    Height =230
+                    TabIndex =5
+                    Name ="Testo51"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =7879
+                    Width =224
+                    Height =230
+                    TabIndex =6
+                    Name ="Testo52"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =7596
+                    Width =224
+                    Height =230
+                    TabIndex =7
+                    Name ="Testo53"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =7312
+                    Width =224
+                    Height =230
+                    TabIndex =8
+                    Name ="Testo54"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =7029
+                    Width =224
+                    Height =230
+                    TabIndex =9
+                    Name ="Testo55"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =6745
+                    Width =224
+                    Height =230
+                    TabIndex =10
+                    Name ="Testo56"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =6462
+                    Width =224
+                    Height =230
+                    TabIndex =11
+                    Name ="Testo57"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =6178
+                    Width =224
+                    Height =230
+                    TabIndex =12
+                    Name ="Testo58"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =5895
+                    Width =224
+                    Height =230
+                    TabIndex =13
+                    Name ="Testo59"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =5612
+                    Width =224
+                    Height =230
+                    TabIndex =14
+                    Name ="Testo60"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =5328
+                    Width =224
+                    Height =230
+                    TabIndex =15
+                    Name ="Testo61"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =13833
+                    Width =224
+                    Height =230
+                    TabIndex =16
+                    Name ="Testo63"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =13549
+                    Width =224
+                    Height =230
+                    TabIndex =17
+                    Name ="Testo64"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =13266
+                    Width =224
+                    Height =230
+                    TabIndex =18
+                    Name ="Testo65"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =12982
+                    Width =224
+                    Height =230
+                    TabIndex =19
+                    Name ="Testo66"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =12699
+                    Width =224
+                    Height =230
+                    TabIndex =20
+                    Name ="Testo67"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =12415
+                    Width =224
+                    Height =230
+                    TabIndex =21
+                    Name ="Testo68"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =12132
+                    Width =224
+                    Height =230
+                    TabIndex =22
+                    Name ="Testo69"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =11848
+                    Width =224
+                    Height =230
+                    TabIndex =23
+                    Name ="Testo70"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =11565
+                    Width =224
+                    Height =230
+                    TabIndex =24
+                    Name ="Testo71"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =11281
+                    Width =224
+                    Height =230
+                    TabIndex =25
+                    Name ="Testo72"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =10998
+                    Width =224
+                    Height =230
+                    TabIndex =26
+                    Name ="Testo73"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =10714
+                    Width =224
+                    Height =230
+                    TabIndex =27
+                    Name ="Testo74"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =10431
+                    Width =224
+                    Height =230
+                    TabIndex =28
+                    Name ="Testo75"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =10147
+                    Width =224
+                    Height =230
+                    TabIndex =29
+                    Name ="Testo76"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    TextFontCharSet =238
+                    Left =9864
+                    Width =224
+                    Height =230
+                    TabIndex =30
+                    Name ="Testo77"
+                    FontName ="Arial CE"
+
+                End
+                Begin TextBox
+                    Left =793
+                    Width =2271
+                    TabIndex =31
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                End
+                Begin TextBox
+                    Left =3287
+                    Width =1971
+                    TabIndex =32
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                End
+                Begin TextBox
+                    RunningSum =2
+                    Left =170
+                    Width =282
+                    Height =227
+                    TabIndex =33
+                    Name ="Testo113"
+                    ControlSource ="=1"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =226
+            Name ="PièDiPaginaPagina"
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    Left =56
+                    Width =5040
+                    Height =165
+                    FontSize =6
+                    Name ="Testo7"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =8902
+                    Width =5040
+                    Height =165
+                    FontSize =6
+                    TabIndex =1
+                    Name ="Testo8"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit

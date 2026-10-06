@@ -1,0 +1,2 @@
+SELECT [ID], [annocomp], [presente], [categoria1], [categoria2], [SESSO], [cognome], [nome], [alias], [cittadinanza], [stato di nascita], [luogo di nascita], [data di nascita], [provenienza], [consegna], [entrataacc], [uscitaacc], [motivuscita], [giorniacc], [destinazione1], [entrataconv], [uscitaconv], [destinazione2], [zugentr], [zugusc], [estremi decreto], [foto], [note], [fasciaeta], [motentr], [esito], [IDaccanno], [IDaccnum], [SCHEDA PAGAMENTI]
+FROM [RICERCA PAGAMENTI];

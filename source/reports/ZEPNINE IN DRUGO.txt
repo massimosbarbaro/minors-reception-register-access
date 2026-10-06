@@ -1,0 +1,279 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =1466239337
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10375
+    DatasheetFontHeight =10
+    ItemSuffix =33
+    Left =660
+    Right =10995
+    Bottom =6105
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x1bd0be9af7e0e140
+    End
+    RecordSource ="PRESENTI COMPLETO"
+    Caption ="ZEPNINE IN DRUGO"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xe102000037020000a80200009602000000000000872800001a02000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =9
+            FontWeight =700
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            BorderWidth =1
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ListBox
+            TextFontFamily =18
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="entrataacc"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =570
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextFontCharSet =238
+                    TextFontFamily =34
+                    Left =60
+                    Top =60
+                    Width =7410
+                    Height =510
+                    FontSize =20
+                    FontWeight =400
+                    Name ="Etichetta4"
+                    Caption ="ŽEPNINE IN DRUGO          ------------------"
+                    FontName ="Arial CE"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =453
+            Name ="IntestazionePagina"
+            Begin
+                Begin Label
+                    Left =793
+                    Top =56
+                    Width =1860
+                    Height =285
+                    FontSize =10
+                    Name ="cognome Etichetta"
+                    Caption ="Priimek"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="cognome_Etichetta"
+                End
+                Begin Label
+                    Left =2721
+                    Top =56
+                    Width =1860
+                    Height =285
+                    FontSize =10
+                    Name ="nome Etichetta"
+                    Caption ="Ime"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="nome_Etichetta"
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =793
+                    Top =396
+                    Width =3777
+                    Name ="Linea7"
+                End
+                Begin Label
+                    Left =4705
+                    Top =113
+                    Width =825
+                    Height =225
+                    FontWeight =400
+                    Name ="Etichetta21"
+                    Caption ="entrata"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =538
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    BorderWidth =0
+                    Left =793
+                    Top =1
+                    Width =1860
+                    Height =270
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BorderWidth =0
+                    Left =2710
+                    Top =1
+                    Width =1860
+                    Height =270
+                    TabIndex =1
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                End
+                Begin TextBox
+                    Left =5669
+                    Width =1134
+                    Height =284
+                    TabIndex =2
+                    Name ="Testo13"
+
+                End
+                Begin TextBox
+                    Left =6860
+                    Width =1134
+                    Height =284
+                    TabIndex =3
+                    Name ="Testo15"
+
+                End
+                Begin TextBox
+                    Left =8050
+                    Width =1134
+                    Height =284
+                    TabIndex =4
+                    Name ="Testo16"
+
+                End
+                Begin TextBox
+                    Left =9241
+                    Width =1134
+                    Height =284
+                    TabIndex =5
+                    Name ="Testo17"
+
+                End
+                Begin TextBox
+                    Left =4648
+                    Width =921
+                    Height =285
+                    TabIndex =6
+                    Name ="entrataacc"
+                    ControlSource ="entrataacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                End
+                Begin TextBox
+                    RunningSum =2
+                    OldBorderStyle =0
+                    BorderWidth =0
+                    Left =113
+                    Top =56
+                    Width =386
+                    Height =227
+                    TabIndex =7
+                    Name ="Testo31"
+                    ControlSource ="=1"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =56
+            Name ="PièDiPaginaPagina"
+            Begin
+                Begin Line
+                    Left =113
+                    Width =8956
+                    Name ="Linea8"
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End

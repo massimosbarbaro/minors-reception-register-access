@@ -1,0 +1,225 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-913246666
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =13943
+    DatasheetFontHeight =10
+    ItemSuffix =113
+    Left =255
+    Top =105
+    Right =9840
+    Bottom =4770
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x9889362f36cae140
+    End
+    RecordSource ="presenti sede 1"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x8905000052030000890500005203000000000000773600001b01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            FontSize =12
+            FontName ="Haettenschweiler"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="cognome"
+        End
+        Begin BreakLevel
+            ControlSource ="nome"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =623
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    Left =60
+                    Top =60
+                    Width =2775
+                    Height =360
+                    FontSize =14
+                    FontWeight =700
+                    Name ="Etichetta6"
+                    Caption ="PRISOTNI PTIÈKI"
+                    FontName ="Arial CE"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =340
+            Name ="IntestazionePagina"
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    Left =3061
+                    Top =56
+                    Width =1920
+                    Height =240
+                    FontSize =8
+                    Name ="Ime Etichetta"
+                    Caption ="Ime"
+                    FontName ="Arial CE"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Ime_Etichetta"
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    Left =340
+                    Top =56
+                    Width =1920
+                    Height =240
+                    FontSize =8
+                    Name ="Etichetta110"
+                    Caption ="Priimek"
+                    FontName ="Arial CE"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =283
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    Left =340
+                    Width =2661
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                End
+                Begin TextBox
+                    Left =3061
+                    Width =3456
+                    TabIndex =1
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =226
+            Name ="PièDiPaginaPagina"
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    Left =56
+                    Width =5040
+                    Height =165
+                    FontSize =6
+                    Name ="Testo7"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =8902
+                    Width =5040
+                    Height =165
+                    FontSize =6
+                    TabIndex =1
+                    Name ="Testo8"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit

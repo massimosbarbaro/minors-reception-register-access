@@ -1,0 +1,1030 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1739579318
+Begin Form
+    AutoCenter = NotDefault
+    OrderByOn = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11622
+    DatasheetFontHeight =10
+    ItemSuffix =98
+    Left =1230
+    Top =420
+    Right =13140
+    Bottom =8160
+    DatasheetGridlinesColor =12632256
+    OrderBy ="[ACCOGLIENZA 2002].ID"
+    RecSrcDt = Begin
+        0x9fb728fc4e60e240
+    End
+    RecordSource ="ACCOGLIENZA 2002"
+    Caption ="Schedario1"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x89050000890500008905000089050000000000006e230000ee13000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483633
+            Name ="IntestazioneMaschera"
+        End
+        Begin Section
+            Height =7754
+            BackColor =-2147483633
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =566
+                    Top =113
+                    Width =576
+                    Height =255
+                    ColumnWidth =1701
+                    Name ="ID"
+                    ControlSource ="ID"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =113
+                            Width =513
+                            Height =255
+                            Name ="ID Etichetta"
+                            Caption ="ID"
+                            EventProcPrefix ="ID_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    Left =1700
+                    Top =113
+                    Width =681
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="annocomp"
+                    ControlSource ="annocomp"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1190
+                            Top =113
+                            Width =513
+                            Height =255
+                            Name ="annocomp Etichetta"
+                            Caption ="Comp."
+                            EventProcPrefix ="annocomp_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1190
+                    Top =453
+                    Width =336
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="presente"
+                    ControlSource ="presente"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =453
+                            Width =1083
+                            Height =255
+                            Name ="presente Etichetta"
+                            Caption ="Presente S/N"
+                            EventProcPrefix ="presente_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    Left =2267
+                    Top =453
+                    Width =336
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =3
+                    Name ="categoria1"
+                    ControlSource ="categoria1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1587
+                            Top =453
+                            Width =678
+                            Height =255
+                            Name ="categoria1 Etichetta"
+                            Caption ="Acc. (X)"
+                            EventProcPrefix ="categoria1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =3288
+                    Top =453
+                    Width =456
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =4
+                    Name ="categoria2"
+                    ControlSource ="categoria2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =95
+                            Left =2607
+                            Top =453
+                            Width =678
+                            Height =255
+                            Name ="categoria2 Etichetta"
+                            Caption ="Conv.(X)"
+                            EventProcPrefix ="categoria2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =4195
+                    Top =453
+                    Width =336
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =5
+                    Name ="SESSO"
+                    ControlSource ="SESSO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =3798
+                            Top =453
+                            Width =408
+                            Height =255
+                            Name ="SESSO Etichetta"
+                            Caption ="M/F"
+                            EventProcPrefix ="SESSO_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =793
+                    Width =2676
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =6
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =793
+                            Width =1248
+                            Height =255
+                            Name ="cognome Etichetta"
+                            Caption ="Cognome"
+                            EventProcPrefix ="cognome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =1133
+                    Width =2271
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =7
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1133
+                            Width =1248
+                            Height =255
+                            Name ="nome Etichetta"
+                            Caption ="Nome"
+                            EventProcPrefix ="nome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    Left =1303
+                    Top =1474
+                    Width =2271
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =8
+                    Name ="alias"
+                    ControlSource ="alias"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1474
+                            Width =1263
+                            Height =255
+                            Name ="alias Etichetta"
+                            Caption ="alias"
+                            EventProcPrefix ="alias_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =1814
+                    Width =2286
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =9
+                    Name ="cittadinanza"
+                    ControlSource ="cittadinanza"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1814
+                            Width =1248
+                            Height =255
+                            Name ="cittadinanza Etichetta"
+                            Caption ="Cittadinanza"
+                            EventProcPrefix ="cittadinanza_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2154
+                    Width =2271
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =10
+                    Name ="stato di nascita"
+                    ControlSource ="stato di nascita"
+                    EventProcPrefix ="stato_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2154
+                            Width =1248
+                            Height =255
+                            Name ="stato di nascita Etichetta"
+                            Caption ="Stato di nascita"
+                            EventProcPrefix ="stato_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2494
+                    Width =2271
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =11
+                    Name ="luogo di nascita"
+                    ControlSource ="luogo di nascita"
+                    EventProcPrefix ="luogo_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2494
+                            Width =1248
+                            Height =255
+                            Name ="luogo di nascita Etichetta"
+                            Caption ="Luogo di nascita"
+                            EventProcPrefix ="luogo_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =2834
+                    Width =966
+                    Height =255
+                    ColumnWidth =825
+                    TabIndex =12
+                    Name ="data di nascita"
+                    ControlSource ="data di nascita"
+                    Format ="Short Date"
+                    InputMask ="99\\/99\\/00;0;#"
+                    EventProcPrefix ="data_di_nascita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2834
+                            Width =1248
+                            Height =255
+                            Name ="data di nascita Etichetta"
+                            Caption ="Data di nascita"
+                            EventProcPrefix ="data_di_nascita_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3174
+                    Width =2886
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =13
+                    Name ="provenienza"
+                    ControlSource ="provenienza"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3174
+                            Width =1248
+                            Height =255
+                            Name ="provenienza Etichetta"
+                            Caption ="Provenienza"
+                            EventProcPrefix ="provenienza_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3514
+                    Width =2886
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =14
+                    Name ="consegna"
+                    ControlSource ="consegna"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3514
+                            Width =1248
+                            Height =255
+                            Name ="consegna Etichetta"
+                            Caption ="consegna"
+                            EventProcPrefix ="consegna_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    Left =1303
+                    Top =3854
+                    Width =966
+                    Height =255
+                    ColumnWidth =825
+                    TabIndex =15
+                    Name ="entrataacc"
+                    ControlSource ="entrataacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =3854
+                            Width =1248
+                            Height =255
+                            Name ="entrataacc Etichetta"
+                            Caption ="entrata acc."
+                            EventProcPrefix ="entrataacc_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3401
+                    Top =3855
+                    Height =285
+                    TabIndex =16
+                    Name ="collocamento 1"
+                    ControlSource ="collocamento 1"
+                    EventProcPrefix ="collocamento_1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =3855
+                            Width =1020
+                            Height =285
+                            Name ="Etichetta75"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1303
+                    Top =4195
+                    Width =966
+                    Height =285
+                    TabIndex =17
+                    Name ="uscitaacc"
+                    ControlSource ="uscitaacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =4195
+                            Width =1200
+                            Height =240
+                            Name ="Etichetta76"
+                            Caption ="uscita acc:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3401
+                    Top =4251
+                    Height =285
+                    TabIndex =18
+                    Name ="collocamento 2"
+                    ControlSource ="collocamento 2"
+                    EventProcPrefix ="collocamento_2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =4251
+                            Width =1020
+                            Height =240
+                            Name ="Etichetta77"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    Left =5668
+                    Top =4251
+                    Width =396
+                    Height =285
+                    TabIndex =19
+                    Name ="giorniacc"
+                    ControlSource ="giorniacc"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5215
+                            Top =4251
+                            Width =345
+                            Height =285
+                            Name ="Etichetta78"
+                            Caption ="gg:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1303
+                    Top =4648
+                    Width =966
+                    Height =285
+                    TabIndex =20
+                    Name ="entrataconv"
+                    ControlSource ="entrataconv"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =4648
+                            Width =1215
+                            Height =285
+                            Name ="Etichetta79"
+                            Caption ="entrataconv:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3401
+                    Top =4648
+                    Height =285
+                    TabIndex =21
+                    Name ="collocamento 3"
+                    ControlSource ="collocamento 3"
+                    EventProcPrefix ="collocamento_3"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =4648
+                            Width =1020
+                            Height =270
+                            Name ="Etichetta80"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1298
+                    Top =5045
+                    Width =966
+                    Height =285
+                    TabIndex =22
+                    Name ="uscitaconv"
+                    ControlSource ="uscitaconv"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =65
+                            Top =5045
+                            Width =1080
+                            Height =285
+                            Name ="Etichetta81"
+                            Caption ="uscitaconv:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3401
+                    Top =5045
+                    Height =285
+                    TabIndex =23
+                    Name ="collocamento 4"
+                    ControlSource ="collocamento 4"
+                    EventProcPrefix ="collocamento_4"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =5045
+                            Width =960
+                            Height =285
+                            Name ="Etichetta82"
+                            Caption ="collocamento:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1303
+                    Top =5442
+                    Width =966
+                    Height =285
+                    TabIndex =24
+                    Name ="entrata altro"
+                    ControlSource ="entrata altro"
+                    Format ="Short Date"
+                    EventProcPrefix ="entrata_altro"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =5442
+                            Width =1020
+                            Height =285
+                            Name ="Etichetta83"
+                            Caption ="entrata altro:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3458
+                    Top =5442
+                    Width =966
+                    Height =285
+                    TabIndex =25
+                    Name ="uscita atro"
+                    ControlSource ="uscita atro"
+                    Format ="Short Date"
+                    EventProcPrefix ="uscita_atro"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2324
+                            Top =5442
+                            Width =1020
+                            Height =285
+                            Name ="Etichetta84"
+                            Caption ="uscita atro:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1303
+                    Top =5839
+                    Width =1011
+                    Height =285
+                    TabIndex =26
+                    ForeColor =255
+                    Name ="uscita definitiva"
+                    ControlSource ="uscita definitiva"
+                    Format ="Short Date"
+                    EventProcPrefix ="uscita_definitiva"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =5839
+                            Width =1215
+                            Height =285
+                            ForeColor =255
+                            Name ="Etichetta85"
+                            Caption ="uscita definitiva:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3458
+                    Top =5839
+                    Width =2376
+                    Height =285
+                    TabIndex =27
+                    Name ="motivuscita"
+                    ControlSource ="motivuscita"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2381
+                            Top =5839
+                            Width =915
+                            Height =285
+                            Name ="Etichetta87"
+                            Caption ="motivuscita:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =6973
+                    Top =5839
+                    Width =2496
+                    Height =285
+                    TabIndex =28
+                    Name ="destinazione1"
+                    ControlSource ="destinazione1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5896
+                            Top =5839
+                            Width =1035
+                            Height =285
+                            Name ="Etichetta88"
+                            Caption ="Destinazione:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1303
+                    Top =6236
+                    Height =285
+                    TabIndex =29
+                    Name ="estremi decreto"
+                    ControlSource ="estremi decreto"
+                    EventProcPrefix ="estremi_decreto"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =6236
+                            Width =1140
+                            Height =285
+                            Name ="Etichetta89"
+                            Caption ="estremi decreto:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =4195
+                    Top =6236
+                    Width =396
+                    Height =285
+                    TabIndex =30
+                    Name ="fasciaeta"
+                    ControlSource ="fasciaeta"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3288
+                            Top =6171
+                            Width =870
+                            Height =1035
+                            Name ="Etichetta90"
+                            Caption ="fascia eta A   6 - 12   B 12 - 14 C 15 - 18 D 19 - 25"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =5839
+                    Top =6236
+                    Width =456
+                    Height =345
+                    TabIndex =31
+                    Name ="motentr"
+                    ControlSource ="motentr"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4762
+                            Top =6183
+                            Width =975
+                            Height =1185
+                            Name ="Etichetta91"
+                            Caption ="Motivazione:A povertà   B racket     C vagab.   D asilo pol.  E altro"
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =215
+                    Left =7426
+                    Top =6236
+                    Width =396
+                    Height =333
+                    TabIndex =32
+                    Name ="esito"
+                    ControlSource ="esito"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =6406
+                            Top =6179
+                            Width =1125
+                            Height =1575
+                            Name ="Etichetta92"
+                            Caption ="esito:             A fuga           B rimpatrio     C estulsione  D ricongiun.  "
+                                "E conv/com  F affido         G altro"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =8957
+                    Top =6633
+                    Width =1026
+                    Height =570
+                    FontSize =18
+                    TabIndex =33
+                    ForeColor =16737843
+                    Name ="IDaccanno"
+                    ControlSource ="IDaccanno"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =9300
+                            Top =6240
+                            Width =1020
+                            Height =240
+                            ForeColor =16737843
+                            Name ="Etichetta93"
+                            Caption ="Anno e num.:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =10039
+                    Top =6633
+                    Width =801
+                    Height =570
+                    FontSize =20
+                    TabIndex =34
+                    ForeColor =16737843
+                    Name ="IDaccnum"
+                    ControlSource ="IDaccnum"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1360
+                    Top =6803
+                    Width =1806
+                    Height =345
+                    FontSize =10
+                    TabIndex =35
+                    BackColor =13434828
+                    ForeColor =16737843
+                    Name ="sistemazione"
+                    ControlSource ="sistemazione"
+
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OverlapFlags =85
+                            Left =283
+                            Top =6803
+                            Width =1020
+                            Height =345
+                            BackColor =13434828
+                            ForeColor =16737843
+                            Name ="Etichetta95"
+                            Caption ="sistemazione:"
+                        End
+                    End
+                End
+                Begin BoundObjectFrame
+                    OverlapFlags =85
+                    BackStyle =1
+                    Left =4251
+                    Top =907
+                    Width =2121
+                    Height =2775
+                    TabIndex =36
+                    Name ="foto"
+                    ControlSource ="foto"
+
+                End
+                Begin BoundObjectFrame
+                    OverlapFlags =85
+                    Left =6973
+                    Top =60
+                    Height =4410
+                    TabIndex =37
+                    Name ="note"
+                    ControlSource ="note"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End

@@ -1,0 +1,260 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =1696698345
+Begin Form
+    AutoCenter = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9637
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =2250
+    Top =1200
+    Right =12165
+    Bottom =6345
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x0b54141c12d0e140
+    End
+    RecordSource ="RICERCA PAGAMENTI"
+    Caption ="SCHEDA PAGAMENTI"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontWeight =700
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =128
+        End
+        Begin Line
+            BorderWidth =2
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =128
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            OldBorderStyle =0
+            BorderWidth =3
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =3
+            OldBorderStyle =0
+            BorderWidth =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+        End
+        Begin ListBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =15269887
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =128
+            Name ="IntestazioneMaschera"
+        End
+        Begin Section
+            Height =5158
+            BackColor =10354687
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =56
+                    Top =113
+                    Width =900
+                    Height =255
+                    ColumnWidth =900
+                    Name ="IDaccanno"
+                    ControlSource ="IDaccanno"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1020
+                    Top =113
+                    Width =900
+                    Height =255
+                    ColumnWidth =900
+                    TabIndex =1
+                    Name ="IDaccnum"
+                    ControlSource ="IDaccnum"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3298
+                    Top =113
+                    Width =2592
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="cognome"
+                    ControlSource ="cognome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =1984
+                            Top =113
+                            Width =1254
+                            Height =270
+                            Name ="cognome Etichetta"
+                            Caption ="Cognome"
+                            EventProcPrefix ="cognome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =7266
+                    Top =113
+                    Width =2097
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =3
+                    Name ="nome"
+                    ControlSource ="nome"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5952
+                            Top =113
+                            Width =1254
+                            Height =270
+                            Name ="nome Etichetta"
+                            Caption ="Nome"
+                            EventProcPrefix ="nome_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =56
+                    Top =453
+                    Width =2496
+                    ColumnWidth =1605
+                    TabIndex =4
+                    Name ="destinazione2"
+                    ControlSource ="destinazione2"
+
+                End
+                Begin BoundObjectFrame
+                    OverlapFlags =85
+                    Left =56
+                    Top =793
+                    Width =8901
+                    Height =4365
+                    TabIndex =5
+                    Name ="SCHEDA PAGAMENTI"
+                    ControlSource ="SCHEDA PAGAMENTI"
+                    EventProcPrefix ="SCHEDA_PAGAMENTI"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =12632256
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End

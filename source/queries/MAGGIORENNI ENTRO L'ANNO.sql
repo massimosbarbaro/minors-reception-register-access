@@ -1,0 +1,3 @@
+SELECT PRESENTI.ID, PRESENTI.annocomp, PRESENTI.presente, PRESENTI.categoria1, PRESENTI.categoria2, PRESENTI.SESSO, PRESENTI.cognome, PRESENTI.nome, PRESENTI.alias, PRESENTI.cittadinanza, PRESENTI.[stato di nascita], PRESENTI.[luogo di nascita], PRESENTI.[data di nascita], PRESENTI.provenienza, PRESENTI.consegna, PRESENTI.entrataacc, PRESENTI.uscitaacc, PRESENTI.motivuscita, PRESENTI.giorniacc, PRESENTI.destinazione1, PRESENTI.entrataconv, PRESENTI.uscitaconv, PRESENTI.destinazione2, PRESENTI.zugentr, PRESENTI.zugusc, PRESENTI.[estremi decreto], PRESENTI.foto, PRESENTI.note, PRESENTI.fasciaeta, PRESENTI.motentr, PRESENTI.esito, PRESENTI.IDaccanno, PRESENTI.IDaccnum, PRESENTI.[SCHEDA PAGAMENTI]
+FROM PRESENTI
+WHERE (((PRESENTI.[data di nascita])<#1/1/82#));

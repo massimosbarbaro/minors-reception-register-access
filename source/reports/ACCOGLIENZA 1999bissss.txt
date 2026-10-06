@@ -1,0 +1,286 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-685096351
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =14000
+    DatasheetFontHeight =10
+    ItemSuffix =17
+    Left =600
+    Top =330
+    Right =14850
+    Bottom =9270
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x1ae3eb5213c0e240
+    End
+    RecordSource ="ACCOGLIENZA 1999"
+    Caption ="ACCOGLIENZA 1999bissss"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x8905000053030000890500005303000000000000b03600009e01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            FontSize =10
+            FontWeight =700
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =10
+            FontName ="Arial"
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =10
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =10
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =623
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =170
+                    Width =6270
+                    Height =600
+                    FontSize =24
+                    ForeColor =8421376
+                    Name ="Etichetta12"
+                    Caption ="ACCOGLIENZA 1999"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =399
+            Name ="IntestazionePagina"
+            Begin
+                Begin Label
+                    Left =57
+                    Top =57
+                    Width =2679
+                    Height =285
+                    Name ="annocomp Etichetta"
+                    Caption ="annocomp"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="annocomp_Etichetta"
+                End
+                Begin Label
+                    Left =2793
+                    Top =57
+                    Width =2679
+                    Height =285
+                    Name ="SESSO Etichetta"
+                    Caption ="SESSO"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="SESSO_Etichetta"
+                End
+                Begin Label
+                    Left =5529
+                    Top =57
+                    Width =2679
+                    Height =285
+                    Name ="stato di nascita Etichetta"
+                    Caption ="Stato di nascita"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="stato_di_nascita_Etichetta"
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =8265
+                    Top =57
+                    Width =1482
+                    Height =285
+                    Name ="data di nascita Etichetta"
+                    Caption ="Data di nascita"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="data_di_nascita_Etichetta"
+                End
+                Begin Label
+                    Left =9804
+                    Top =57
+                    Width =2679
+                    Height =285
+                    Name ="provenienza Etichetta"
+                    Caption ="Provenienza"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="provenienza_Etichetta"
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =12540
+                    Top =57
+                    Width =1305
+                    Height =285
+                    Name ="entrataacc Etichetta"
+                    Caption ="entrataacc"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="entrataacc_Etichetta"
+                End
+                Begin Line
+                    OldBorderStyle =7
+                    BorderWidth =2
+                    BorderLineStyle =6
+                    Left =57
+                    Top =342
+                    Width =13788
+                    BorderColor =8421376
+                    Name ="Linea15"
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =414
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    Left =57
+                    Top =57
+                    Width =2679
+                    Height =300
+                    Name ="annocomp"
+                    ControlSource ="annocomp"
+
+                End
+                Begin TextBox
+                    Left =2793
+                    Top =57
+                    Width =2679
+                    Height =300
+                    TabIndex =1
+                    Name ="SESSO"
+                    ControlSource ="SESSO"
+
+                End
+                Begin TextBox
+                    Left =5529
+                    Top =57
+                    Width =2679
+                    Height =300
+                    TabIndex =2
+                    Name ="stato di nascita"
+                    ControlSource ="stato di nascita"
+                    EventProcPrefix ="stato_di_nascita"
+
+                End
+                Begin TextBox
+                    Left =8265
+                    Top =57
+                    Width =1482
+                    Height =300
+                    TabIndex =3
+                    Name ="data di nascita"
+                    ControlSource ="data di nascita"
+                    Format ="Short Date"
+                    InputMask ="99\\/99\\/00;0;#"
+                    EventProcPrefix ="data_di_nascita"
+
+                End
+                Begin TextBox
+                    Left =9804
+                    Top =57
+                    Width =2679
+                    Height =300
+                    TabIndex =4
+                    Name ="provenienza"
+                    ControlSource ="provenienza"
+
+                End
+                Begin TextBox
+                    Left =12540
+                    Top =57
+                    Width =1305
+                    Height =300
+                    TabIndex =5
+                    Name ="entrataacc"
+                    ControlSource ="entrataacc"
+                    InputMask ="99\\/99\\/00;0;#"
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="PièDiPaginaPagina"
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End
