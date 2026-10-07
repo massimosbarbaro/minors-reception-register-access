@@ -1,5 +1,7 @@
 # Admission register of a reception centre for foreign minors
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23205234.svg)](https://doi.org/10.5281/zenodo.23205234)
+
 *Schedario degli accolti di un centro di accoglienza per minori stranieri*
 
 **Microsoft Access** · 2019 · version 1.0  
@@ -45,9 +47,9 @@ The database is published **empty**: every table has been emptied and the file c
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205234](https://doi.org/10.5281/zenodo.23205234).
 
-> Sbarbaro, Massimo. *Admission register of a reception centre for foreign minors (Microsoft Access, 2019)*. Software, version 1.0. GitHub: https://github.com/massimosbarbaro/minors-reception-register-access
+> Sbarbaro, Massimo. 2019. *Admission register of a reception centre for foreign minors*. Software (Microsoft Access, 2019), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23205234.
 
 ## License
 
