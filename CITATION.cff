@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you refer to this software, please cite it as below."
 type: software
-title: "Admission register of a reception centre for foreign minors (Microsoft Access, 2019)"
+title: "Admission register of a reception centre for foreign minors (db, 2019)"
 version: "1.0"
 abstract: "This database brings together in a single register the admission files of a reception centre for foreign minors, covering the years from 1998 onwards. For every minor it records identity, provenance and placing authority, first-reception and residential stay with entry and exit dates for each site, placement, court decree reference and outcome, with coded reasons for admission, outcome and age band. Yearly forms and reports reproduce the registers kept in each year and produce monthly and statistical returns."
 authors:

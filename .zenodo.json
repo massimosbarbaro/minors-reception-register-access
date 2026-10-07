@@ -1,8 +1,8 @@
 {
-  "title": "Admission register of a reception centre for foreign minors (Microsoft Access, 2019)",
+  "title": "Admission register of a reception centre for foreign minors (db, 2019)",
   "upload_type": "software",
   "publication_date": "2019-12-31",
-  "description": "<p><em>Schedario degli accolti di un centro di accoglienza per minori stranieri</em></p><p>This database brings together in a single register the admission files of a reception centre for foreign minors, covering the years from 1998 onwards. For every minor it records identity, provenance and placing authority, first-reception and residential stay with entry and exit dates for each site, placement, court decree reference and outcome, with coded reasons for admission, outcome and age band. Yearly forms and reports reproduce the registers kept in each year and produce monthly and statistical returns.</p><p>Designed and programmed by Massimo Sbarbaro in 2019 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "description": "<p><em>Schedario degli accolti di un centro di accoglienza per minori stranieri</em></p><p>This database brings together in a single register the admission files of a reception centre for foreign minors, covering the years from 1998 onwards. For every minor it records identity, provenance and placing authority, first-reception and residential stay with entry and exit dates for each site, placement, court decree reference and outcome, with coded reasons for admission, outcome and age band. Yearly forms and reports reproduce the registers kept in each year and produce monthly and statistical returns.</p><p>Designed and programmed by Massimo Sbarbaro in 2019 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
   "creators": [
     {
       "name": "Sbarbaro, Massimo",
